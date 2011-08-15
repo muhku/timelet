@@ -1,0 +1,65 @@
+body {
+	margin: 0px;
+	font: normal normal 8pt verdana, sans-serif;
+	line-height: 170%;
+	background-image: url(/images/bg.png);
+	background-repeat: repeat-y;
+}
+
+a,a:visited,a:active,a:hover {
+	color: #c00;
+}
+
+div#logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	width: 786px;
+	height: 80px;
+	border-bottom: 1px solid #ddd;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+div#content {
+	width: 600px;
+	padding: 90px 250px 10px 60px;
+}
+
+div.inner {
+	padding-left: 60px;
+}
+
+th {
+	font: normal bold 8pt verdana, sans-serif;
+}
+
+td, p {
+	font: normal normal 8pt verdana, sans-serif;
+	line-height: 170%;
+}
+
+h2 {
+	color: #076d9e;
+	font: normal normal 15pt verdana, sans-serif;
+	padding-top: 15px;
+}
+
+table.b {
+	border-right: 1px solid #ccc;
+	width: 500px;
+}
+
+table.b th {
+	background-color: #cee;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+
+table.b td {
+	background-color: #fffffe;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
